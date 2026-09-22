@@ -1,0 +1,12 @@
+<!-- Active Response: Automated Containment for Rule 100101 -->
+<command>
+  <name>auto-containment</name>
+  <executable>disable-sprayed-user.cmd</executable>
+  <timeout_allowed>no</timeout_allowed>
+</command>
+
+<active-response>
+  <command>auto-containment</command>
+  <location>local</location>
+  <rules_id>100101</rules_id>
+</active-response>

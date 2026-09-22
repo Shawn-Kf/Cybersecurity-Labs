@@ -1,0 +1,26 @@
+<group name="windows,active_directory,">
+
+  <!-- Rule 100100: Kerberoasting RC4 Detection -->
+  <rule id="100100" level="12">
+    <if_group>windows</if_group>
+    <field name="win.system.eventID">^4769$</field>
+    <field name="win.eventdata.ticketEncryptionType">^0x17$</field>
+    <field name="win.eventdata.serviceName" negate="yes">krbtgt</field>
+    <description>SOC-LAB: Potential Kerberoasting Attack Detected (RC4 TGS Ticket Requested)</description>
+    <mitre>
+      <id>T1558.003</id>
+    </mitre>
+    <group>kerberoasting,credential_access,</group>
+  </rule>
+
+  <!-- Rule 100101: Password Spraying Correlation -->
+  <rule id="100101" level="10" frequency="4" timeframe="60">
+    <if_matched_sid>60122</if_matched_sid>
+    <description>SOC-LAB: Multiple Failed Windows Logon Attempts Detected (Potential Password Spray)</description>
+    <mitre>
+      <id>T1110.003</id>
+    </mitre>
+    <group>authentication_failed,credential_access,</group>
+  </rule>
+
+</group>

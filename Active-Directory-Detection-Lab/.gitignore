@@ -1,0 +1,11 @@
+# Ignore virtual disk images and large machine files
+VMs/
+*.vdi
+*.vmdk
+*.vbox
+*.vbox-prev
+*.iso
+
+# Ignore heavy log dumps
+Logs/
+*.log
