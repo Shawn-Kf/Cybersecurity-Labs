@@ -1,0 +1,36 @@
+{
+    "generated_at": "2026-10-19T01:43:30.752476+00:00",
+    "total_alerts": 2,
+    "alerts": [
+        {
+            "alert_type": "brute_force",
+            "source_ip": "192.168.1.25",
+            "username": "john",
+            "failed_attempts": 4,
+            "window_seconds": 60,
+            "severity": "medium",
+            "potential_ioc": {
+                "type": "source_ip",
+                "value": "192.168.1.25"
+            }
+        },
+        {
+            "alert_type": "password_spraying",
+            "source_ip": "192.168.1.75",
+            "targeted_accounts": [
+                "abena",
+                "ama",
+                "kofi",
+                "kwame",
+                "mary"
+            ],
+            "account_count": 5,
+            "window_seconds": 60,
+            "severity": "high",
+            "potential_ioc": {
+                "type": "source_ip",
+                "value": "192.168.1.75"
+            }
+        }
+    ]
+}

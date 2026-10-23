@@ -1,0 +1,82 @@
+[
+    {
+        "timestamp": "2026-09-20T10:01:12",
+        "event_id": 4625,
+        "username": "alice",
+        "source_ip": "192.168.1.50",
+        "status": "failed",
+        "logon_type": 3
+    },
+    {
+        "timestamp": "2026-09-20T10:02:03",
+        "event_id": 4625,
+        "username": "john",
+        "source_ip": "192.168.1.25",
+        "status": "failed",
+        "logon_type": 3
+    },
+    {
+        "timestamp": "2026-09-20T10:02:07",
+        "event_id": 4625,
+        "username": "john",
+        "source_ip": "192.168.1.25",
+        "status": "failed",
+        "logon_type": 3
+    },
+    {
+        "timestamp": "2026-09-20T10:02:10",
+        "event_id": 4625,
+        "username": "john",
+        "source_ip": "192.168.1.25",
+        "status": "failed",
+        "logon_type": 3
+    },
+    {
+        "timestamp": "2026-09-20T10:02:14",
+        "event_id": 4625,
+        "username": "john",
+        "source_ip": "192.168.1.25",
+        "status": "failed",
+        "logon_type": 3
+    },
+    {
+        "timestamp": "2026-09-20T10:03:01",
+        "event_id": 4625,
+        "username": "mary",
+        "source_ip": "192.168.1.75",
+        "status": "failed",
+        "logon_type": 3
+    },
+    {
+        "timestamp": "2026-09-20T10:03:04",
+        "event_id": 4625,
+        "username": "kofi",
+        "source_ip": "192.168.1.75",
+        "status": "failed",
+        "logon_type": 3
+    },
+    {
+        "timestamp": "2026-09-20T10:03:07",
+        "event_id": 4625,
+        "username": "ama",
+        "source_ip": "192.168.1.75",
+        "status": "failed",
+        "logon_type": 3
+    },
+    {
+        "timestamp": "2026-09-20T10:03:10",
+        "event_id": 4625,
+        "username": "kwame",
+        "source_ip": "192.168.1.75",
+        "status": "failed",
+        "logon_type": 3
+    },
+    {
+        "timestamp": "2026-09-20T10:03:13",
+        "event_id": 4625,
+        "username": "abena",
+        "source_ip": "192.168.1.75",
+        "status": "failed",
+        "logon_type": 3
+    }
+]
