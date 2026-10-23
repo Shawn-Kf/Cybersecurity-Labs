@@ -57,7 +57,7 @@ A centralized portfolio repository showcasing hands-on detection engineering, th
 - **Traffic & Forensics:** Wireshark, PCAP stream reassembly, network packet analysis
 - **Offensive Emulation:** Impacket, NetExec, John the Ripper, Metasploit
 - **Systems & Directory Services:** Windows Server 2022, Active Directory Domain Services, Linux (Ubuntu, Kali)
-- **Scripting & Automation:** Python, PowerShell, Bash, XML
+- **Scripting & Automation:** Python
 - **Detection Engineering:** Authentication-event analysis, time-window detection rules, alert severity, IOC extraction, automated testing
 
 ---
